@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="35.171">
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="11.959">
+<system-out><![CDATA[Given User is GreenKart langing page........................................passed
+When User searches for Carrot...............................................passed
+Then Carrot results are displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results 2" time="11.269">
+<system-out><![CDATA[Given User is GreenKart langing page........................................passed
+When User searches for Beans................................................passed
+Then Beans results are displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results 3" time="11.657">
+<system-out><![CDATA[Given User is GreenKart langing page........................................passed
+When User searches for Potato...............................................passed
+Then Potato results are displayed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

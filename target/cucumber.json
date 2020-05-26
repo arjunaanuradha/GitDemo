@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-25T05:57:44.007Z",
+        "line": 11,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8722000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is GreenKart langing page",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.user_is_greenkart_langing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3152000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for Carrot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carrot",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Carrot results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carrot",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T05:57:55.972Z",
+        "line": 12,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8098000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is GreenKart langing page",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.user_is_greenkart_langing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3147000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for Beans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beans",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Beans results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beans",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T05:58:07.243Z",
+        "line": 13,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8466000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is GreenKart langing page",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.user_is_greenkart_langing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3160000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for Potato",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Potato",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Potato results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Potato",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegetables",
+    "description": "",
+    "id": "search-and-place-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Search.feature",
+    "tags": []
+  }
+]
